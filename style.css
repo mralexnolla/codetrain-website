@@ -1,0 +1,35 @@
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+@media(min-width: 768px){
+    .new-input{
+        width: 50%;
+    }
+}
+
+
+.accordionbgcol{
+    background-color: rgb(215, 215, 215);
+}
+
+.textcolor{
+    color: rgb(86, 86, 228);
+}
+
+.hovcolor:hover{
+    background-color: rgb(135, 90, 178);
+    
+    
+}
+
+.hovborder .btn{
+    border-radius: none;
+}
+
+#map{
+    width: 100%;
+    height: 100%;
+}
