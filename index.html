@@ -34,6 +34,16 @@
                     <li class="nav-item">
                         <a href="#contact" class="nav-link">Contact Us</a>
                     </li>
+                    <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-menu-button-wide"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>   
+                    </li>
                 </ul>
             </div>
         </div>
@@ -85,6 +95,7 @@
     </section>
 
     <!-- Boxes -->
+
     <section class="p-5">
         <div class="container">
             <div class="row text-center g-4">
@@ -522,6 +533,51 @@
             </a>
         </div>
     </footer>
+
+    <!-- Modal -->
+<div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-dark ">
+          <h1 class="modal-title fs-5 text-white" id="enrollLabel">Apply to Codetrain</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body bg-dark">
+          <form action="#">
+
+            <div class="mb-3">
+                <label for="first-name" class="col-form-label text-white"> First Name <span class="text-danger">*</span> </label>
+                <input type="text" class="form-control" id="first-name">
+            </div>
+            <div class="mb-3">
+                <label for="first-name" class="col-form-label text-white"> Middle Name <span class="text-danger">*</span> </label>
+                <input type="text" class="form-control" id="first-name">
+            </div>
+            <div class="mb-3">
+                <label for="first-name" class="col-form-label text-white"> Last Name <span class="text-danger">*</span> </label>
+                <input type="text" class="form-control" id="first-name">
+            </div>
+            <div class="mb-3">
+                <label for="first-name" class="col-form-label text-white"> Phone <span class="text-danger">*</span> </label>
+                <input type="text" class="form-control" id="first-name">
+            </div>
+            <div class="mb-3">
+                <label for="first-name" class="col-form-label text-white"> Email <span class="text-danger">*</span> </label>
+                <input type="text" class="form-control" id="first-name">
+            </div>
+
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-warning">Submit application</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- drop down -->
+  
     
    
     <script src="js/bootstrap.min.js"></script>
